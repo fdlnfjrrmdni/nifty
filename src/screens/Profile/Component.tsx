@@ -1,5 +1,5 @@
 import React from "react";
-import { SafeAreaView, View } from "react-native";
+import { SafeAreaView, ScrollView, View } from "react-native";
 
 import Header from "../../components/Header";
 import Banner from "./components/Banner";
@@ -9,14 +9,14 @@ import styles from "./styles";
 
 const Component = () => {
   return (
-    <SafeAreaView style={styles.container}>
-      <View style={styles.container}>
-        <Header />
+    <View style={styles.container}>
+      <Header />
+      <ScrollView>
         <Banner />
         <Menus />
-      </View>
+      </ScrollView>
       <BottomNavigation />
-    </SafeAreaView>
+    </View>
   );
 };
 

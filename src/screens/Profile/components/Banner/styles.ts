@@ -6,8 +6,9 @@ const styles = StyleSheet.create({
   wrap: {
     backgroundColor: COLORS.purple,
     borderRadius: 25,
-    elevation: 20,
-    paddingBottom: 10,
+    elevation: 8,
+    marginHorizontal: 16,
+    marginTop: 16,
   },
   preview: {
     backgroundColor: COLORS.white,
@@ -16,7 +17,6 @@ const styles = StyleSheet.create({
     justifyContent: "space-around",
     width: "100%",
     borderRadius: 25,
-    zIndex: 1,
   },
   image: {
     width: 120,
@@ -34,7 +34,7 @@ const styles = StyleSheet.create({
   },
   wrapTitle: {
     paddingHorizontal: 50,
-    paddingTop: 5,
+    paddingVertical: 12,
     flexDirection: "row",
     justifyContent: "space-between",
   },

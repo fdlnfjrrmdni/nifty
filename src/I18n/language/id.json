@@ -9,5 +9,8 @@
   "yes": "Ya",
   "no": "Tidak",
   "typeHere": "Ketik di sini",
-  "profile": "Profile"
+  "profile": "Profile",
+  "login": "Masuk",
+  "account?": "",
+  "email?": ""
 }

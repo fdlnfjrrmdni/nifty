@@ -6,7 +6,7 @@ import styles from "./styles";
 const Component = () => {
   return (
     <View style={styles.wrap}>
-      <View>
+      <View style={styles.flex}>
         <Text style={styles.title}>Welcome,</Text>
         <Text style={styles.name}>Gilang Aroempinang</Text>
       </View>

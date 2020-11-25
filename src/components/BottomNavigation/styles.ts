@@ -5,15 +5,17 @@ import { COLORS } from "../../configs";
 const styles = StyleSheet.create({
   wrap: {
     backgroundColor: COLORS.white,
-    elevation: 20,
+    elevation: 8,
     borderRadius: 25,
     padding: 20,
-    marginVertical: 5,
+    // alignSelf: "center",
+    // width: "100%",
+    marginBottom: 20,
+    marginHorizontal: 16,
     flexDirection: "row",
     justifyContent: "space-around",
   },
   wrapItem: {
-    borderWidth: 1,
     height: 50,
     alignItems: "center",
   },

@@ -9,5 +9,8 @@
   "yes": "Yes",
   "no": "No",
   "typeHere": "Type here",
-  "profile": "Profile"
+  "profile": "Profile",
+  "login": "Log In",
+  "account?": "Don't have an account ?",
+  "email?": "Or login with email"
 }

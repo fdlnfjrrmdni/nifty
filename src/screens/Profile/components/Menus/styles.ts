@@ -1,19 +1,23 @@
 import { StyleSheet } from "react-native";
 
 import { COLORS } from "../../../../configs";
+import { widthPercent } from "../../../../utils";
 
 const styles = StyleSheet.create({
   wrap: {
     padding: 40,
     flexDirection: "row",
     flexWrap: "wrap",
-    justifyContent: "space-between",
     width: "100%",
+    marginHorizontal: 16,
   },
   wrapMenu: {
     width: 80,
     alignItems: "center",
     paddingVertical: 10,
+  },
+  wrapMenuMargin: {
+    marginLeft: (widthPercent(100) - 40 * 2 - 80 * 3 - 16 * 2) / 2,
   },
   menu: {
     width: 60,

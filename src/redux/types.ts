@@ -20,6 +20,7 @@ export interface Action {
 export interface Reducers {
   home: HomeState;
   persist: PersistState;
+  placeholder: PlaceholderState;
 }
 
 export interface HomeState {
@@ -30,4 +31,10 @@ export interface HomeState {
 
 export interface PersistState {
   language: string;
+}
+
+export interface PlaceholderState {
+  data: any[];
+  isLoadingGetPlaceholder: boolean;
+  listPlaceholder: any[];
 }

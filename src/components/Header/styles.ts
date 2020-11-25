@@ -3,10 +3,14 @@ import { StyleSheet } from "react-native";
 import { COLORS } from "../../configs";
 
 const styles = StyleSheet.create({
+  flex: {
+    flex: 1,
+  },
   wrap: {
     flexDirection: "row",
     justifyContent: "space-between",
-    marginVertical: 5,
+    marginHorizontal: 16,
+    marginVertical: 8,
   },
   title: {
     color: COLORS.green,
